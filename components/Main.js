@@ -14,10 +14,11 @@ const Main = () => {
         <h1 className="title">
           Un Cannolo
           <br />
-          In AR,
+          In 3D,
           <br />
-          Perché si.
+          Perché sì.
         </h1>
+        <h2 className="subtitle">#holycannoli</h2>
       </div>
     </main>
   );
