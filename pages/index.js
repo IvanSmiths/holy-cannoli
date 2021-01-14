@@ -13,12 +13,9 @@ export default function Home() {
         <meta name="theme-color" content="#fdf033" />
         <meta name="msapplication-navbutton-color" content="#fdf033" />
         <meta name="apple-mobile-web-app-status-bar-style" content="#fdf033" />
+        <meta property="og:url" content="http://www.holycannoli.xyz" />
         <meta
-          property="og:url"
-          content="http://www.holycannoli.xyz https://i.ibb.co/XZ9tTrx/og.jpg"
-        />
-        <meta
-          property="og:image:secure_url"
+          property="og:image:url"
           content="https://i.ibb.co/XZ9tTrx/og.jpg"
         />
         <meta property="og:image:type" content="image/jpeg" />
