@@ -22,7 +22,7 @@ h2,
 h3,
 h4,
 p {
-  color: white;
+  color: rgb(255, 255, 255);
   font-family: inherit;
 }
 .title {
@@ -34,8 +34,9 @@ p {
   font-size: clamp(2rem, 3.5vw, 5rem);
   margin: 11rem 0rem 6rem 0rem;
   font-style: italic;
-}
 
+  color: #fdf033;
+}
 .h2 {
   font-size: clamp(1rem, 3vw, 5rem);
 }
