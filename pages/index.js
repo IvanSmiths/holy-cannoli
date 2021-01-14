@@ -24,6 +24,12 @@ export default function Home() {
         <meta property="og:title" content="Holy Cannoli." />
         <meta property="og:locale" content="it_IT" />
         <meta property="og:description" content="I cannoli invadono Ragusa!" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@IvanSmiths" />
+        <meta name="twitter:title" content="Holy Cannoli!" />
+        <meta name="twitter:description" content="I cannoli invadono Ragusa." />
+        <meta name="twitter:image" content="https://i.ibb.co/XZ9tTrx/og.jpg" />
+        <meta name="twitter:image:alt" content="Un Cannolo 3D." />
       </Head>
       <Main />
       <Footer />
