@@ -27,10 +27,6 @@ export default function Home() {
         <meta property="og:title" content="Holy Cannoli." />
         <meta property="og:locale" content="it_IT" />
         <meta property="og:description" content="I cannoli invadono Ragusa!" />
-        <meta
-          property="og:image"
-          content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg"
-        />
       </Head>
       <Main />
       <Footer />
