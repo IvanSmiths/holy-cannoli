@@ -1,0 +1,10 @@
+{
+  "name": "holyCannoli",
+  "short_name": "hc",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#cc0033",
+  "theme_color": "#cc0033",
+  "orientation": "portrait-primary"
+}

@@ -76,6 +76,7 @@ p {
 }
 
 .btn {
+  background-color: white;
   border: 2px solid black;
   border-radius: 0.5rem;
   padding: 1rem 1.5rem;
