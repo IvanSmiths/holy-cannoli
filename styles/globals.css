@@ -31,18 +31,18 @@ p {
 }
 
 .subtitle {
-  font-size: clamp(2rem, 3.5vw, 5rem);
-  margin: 11rem 0rem 6rem 0rem;
+  font-size: clamp(3rem, 3.5vw, 5rem);
+  margin: 11rem 0rem 7rem 0rem;
   font-style: italic;
 
   color: #fdf033;
 }
 .h2 {
-  font-size: clamp(1rem, 3vw, 5rem);
+  font-size: clamp(1.2rem, 3vw, 5rem);
 }
 
 .h3 {
-  font-size: clamp(1rem, 3vw, 5rem);
+  font-size: clamp(1.2rem, 3vw, 5rem);
   color: black;
 }
 
@@ -53,7 +53,7 @@ p {
 
 .cnt_text {
   text-align: center;
-  margin: 3rem 0rem 6rem 0rem;
+  margin: 0rem 0rem 6rem 0rem;
 }
 
 .cnt_model {
@@ -61,6 +61,11 @@ p {
   justify-content: center;
   align-items: center;
   height: 80vh;
+}
+model-viewer#reveal {
+  --poster-color: transparent;
+  --progress-bar-color: #fdf033;
+  --progress-bar-height: 1rem;
 }
 
 .cnt_model:focus {
@@ -77,17 +82,24 @@ p {
 }
 
 .btn {
-  background-color: white;
-  border: 2px solid black;
-  border-radius: 0.5rem;
-  padding: 1rem 1.5rem;
+  background-color: rgb(10, 10, 10);
+  border-radius: 0.6rem;
+  padding: 1rem 1.2rem;
   transition: 0.4s ease-in-out;
   margin-left: 1rem;
   font-family: inherit;
+  color: white;
 }
 
 .btn:hover {
-  color: white;
-  background-color: black;
+  border: 2px solid black;
+  color: rgb(17, 17, 17);
+  background-color: rgb(255, 248, 248);
   transform: scale(1.05);
+}
+
+@media screen and (max-width: 650px) {
+  .title {
+    line-height: 9rem;
+  }
 }
