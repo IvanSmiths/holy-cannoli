@@ -7,7 +7,10 @@ export default function Home() {
     <div>
       <Head>
         <title>Holy Cannoli!</title>
-        <meta name="description" content="I cannoli 3D invadono Ragusa!" />
+        <meta
+          name="description"
+          content="I cannoli 3D invadono Ragusa! Dove si nascondono?"
+        />
         <link rel="icon" href="/favicon.ico" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#fdf033" />
