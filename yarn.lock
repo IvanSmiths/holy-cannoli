@@ -2413,6 +2413,11 @@
   "resolved" "https://registry.npmjs.org/neo-async/-/neo-async-2.6.2.tgz"
   "version" "2.6.2"
 
+"next-secure-headers@^2.1.0":
+  "integrity" "sha512-52hskKwZ9s8K4ZGQglOdpSPtrVVRLKHGbxjQ2McnvJl0Iv7iQAFG9D42aWuRdueE0EEpdkuSNiQcJR0fIMSgTw=="
+  "resolved" "https://registry.npmjs.org/next-secure-headers/-/next-secure-headers-2.1.0.tgz"
+  "version" "2.1.0"
+
 "next-tick@~1.0.0":
   "integrity" "sha1-yobR/ogoFpsBICCOPchCS524NCw="
   "resolved" "https://registry.npmjs.org/next-tick/-/next-tick-1.0.0.tgz"
@@ -4072,7 +4077,7 @@
   "resolved" "https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-4.0.2.tgz"
   "version" "4.0.2"
 
-"webpack-sources@^1.4.0", "webpack-sources@^1.4.1", "webpack-sources@1.4.3":
+"webpack-sources@^1.3.0", "webpack-sources@^1.4.0", "webpack-sources@^1.4.1", "webpack-sources@1.4.3":
   "integrity" "sha512-lgTS3Xhv1lCOKo7SA5TjKXMjpSM4sBjNV5+q2bqesbSPs5FjGmU6jjtBSkX9b4qW87vDIsCIlUPOEhbZrMdjeQ=="
   "resolved" "https://registry.npmjs.org/webpack-sources/-/webpack-sources-1.4.3.tgz"
   "version" "1.4.3"
@@ -4080,7 +4085,14 @@
     "source-list-map" "^2.0.0"
     "source-map" "~0.6.1"
 
-"webpack@^4 || ^5", "webpack@^4.0.0", "webpack@^4.0.0 || ^5.0.0", "webpack@^4.27.0 || ^5.0.0", "webpack@^4.36.0 || ^5.0.0", "webpack@4.44.1":
+"webpack-subresource-integrity@^1.5.2":
+  "integrity" "sha512-GBWYBoyalbo5YClwWop9qe6Zclp8CIXYGIz12OPclJhIrSplDxs1Ls1JDMH8xBPPrg1T6ISaTW9Y6zOrwEiAzw=="
+  "resolved" "https://registry.npmjs.org/webpack-subresource-integrity/-/webpack-subresource-integrity-1.5.2.tgz"
+  "version" "1.5.2"
+  dependencies:
+    "webpack-sources" "^1.3.0"
+
+"webpack@^4 || ^5", "webpack@^4.0.0", "webpack@^4.0.0 || ^5.0.0", "webpack@^4.27.0 || ^5.0.0", "webpack@^4.36.0 || ^5.0.0", "webpack@>= 1.12.11 < 6", "webpack@4.44.1":
   "integrity" "sha512-4UOGAohv/VGUNQJstzEywwNxqX417FnjZgZJpJQegddzPmTvph37eBIRbRTfdySXzVtJXLJfbMN3mMYhM6GdmQ=="
   "resolved" "https://registry.npmjs.org/webpack/-/webpack-4.44.1.tgz"
   "version" "4.44.1"
