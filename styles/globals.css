@@ -38,11 +38,11 @@ p {
   color: #fdf033;
 }
 .h2 {
-  font-size: clamp(1.2rem, 3vw, 5rem);
+  font-size: clamp(1.2rem, 3vw, 4rem);
 }
 
 .h3 {
-  font-size: clamp(1.2rem, 3vw, 5rem);
+  font-size: clamp(1.2rem, 3vw, 4rem);
   color: black;
 }
 
@@ -89,6 +89,7 @@ model-viewer#reveal {
   margin-left: 1rem;
   font-family: inherit;
   color: white;
+  border: black;
 }
 
 .btn:hover {
