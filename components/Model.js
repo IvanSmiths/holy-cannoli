@@ -6,7 +6,7 @@ const Model = () => {
       <model-viewer
         id="reveal"
         class="model"
-        src="/3d-model.glb"
+        src="/3d-model-2.glb"
         poster="/poster.png"
         ar
         camera-controls
