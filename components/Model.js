@@ -8,7 +8,6 @@ const Model = () => {
         class="model"
         src="/3d-model.glb"
         poster="/poster.png"
-        exposure="1.5"
         ar
         camera-controls
         camera-orbit="-150.8deg 77.13deg 2.982m"
