@@ -11,6 +11,9 @@ const Footer = () => {
             <button className="btn h2">IVAN SMITHS</button>
           </a>
         </Link>
+        <Link href="https://f000.backblazeb2.com/file/FirstTestModel/Rocket_Ship_01.gltf">
+          <a>Download</a>
+        </Link>
       </footer>
     </div>
   );
