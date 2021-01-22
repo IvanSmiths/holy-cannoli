@@ -1,7 +1,7 @@
 const Faq = () => {
   return (
     <section className="faq">
-      <h4 className="h2 faq-title">Domande frequenti:</h4>
+      <h3 className="h2 faq-title">Domande frequenti:</h3>
       <div className="q-cnt">
         <ul>
           <li className="p">
