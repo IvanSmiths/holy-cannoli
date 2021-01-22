@@ -1,6 +1,7 @@
 import Main from '../components/Main';
 import Footer from '../components/Footer';
 import Head from 'next/head';
+import Faq from '../components/Faq';
 
 export default function Home() {
   return (
@@ -64,6 +65,7 @@ export default function Home() {
         <title>Holy Cannoli!</title>
       </Head>
       <Main />
+      <Faq />
       <Footer />
     </div>
   );
