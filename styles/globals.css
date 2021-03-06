@@ -26,13 +26,13 @@ p {
   font-family: inherit;
 }
 .title {
-  font-size: clamp(4rem, 9vw, 14rem);
+  font-size: clamp(3rem, 9vw, 14rem);
   font-weight: 800;
 }
 
 .subtitle {
-  font-size: clamp(3rem, 3.5vw, 5rem);
-  margin: 11rem 0rem 7rem 0rem;
+  font-size: clamp(2rem, 3.5vw, 5rem);
+  margin: 12rem 0rem 5rem 0rem;
   font-style: italic;
 
   color: #fdf033;
@@ -60,16 +60,37 @@ p {
   text-align: left;
   padding: 2rem;
 }
+
 .p {
-  font-size: clamp(1rem, 2.2vw, 1.6rem);
-  color: rgb(255, 255, 255);
-  list-style-type: square;
-  margin: 1.8rem 0rem;
+  font-size: clamp(0.8rem, 1.4vw, 1.6rem);
+  color: rgb(206, 205, 205);
+  margin: 3rem 0rem;
+  font-weight: 400;
 }
 
 .q {
+  font-weight: 600;
   font-size: clamp(1rem, 2.2vw, 1.6rem);
-  color: rgb(199, 199, 199);
+  color: rgb(255, 255, 255);
+}
+
+.cnt-l {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 0 0.4rem;
+  margin-bottom: 3rem;
+}
+
+.l {
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: aliceblue;
+  font-weight: 600;
+  font-size: clamp(1rem, 1vw, 1.6rem);
+  color: #c80536;
 }
 
 .main {
@@ -116,6 +137,7 @@ model-viewer#reveal {
   font-family: inherit;
   color: white;
   border: black;
+  border: 2px solid black;
 }
 
 .btn:hover {
