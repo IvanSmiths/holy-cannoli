@@ -129,6 +129,7 @@ model-viewer#reveal {
 }
 
 .btn {
+  cursor: pointer;
   background-color: rgb(10, 10, 10);
   border-radius: 0.6rem;
   padding: 1rem 1.2rem;
