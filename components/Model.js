@@ -8,7 +8,7 @@ const Model = () => {
         class="model"
         src="/3d-model-2.glb"
         ios-src="/3d-model.usdz"
-        shadow-intensity="0.5"
+        shadow-intensity="0.6"
         poster="/poster.png"
         ar
         camera-controls
