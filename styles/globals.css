@@ -148,12 +148,6 @@ model-viewer#reveal {
   transform: scale(1.05);
 }
 
-@media screen and (max-width: 650px) {
-  .title {
-    line-height: 9rem;
-  }
-}
-
 @media screen and (min-width: 650px) {
   .title {
     line-height: 9rem;
