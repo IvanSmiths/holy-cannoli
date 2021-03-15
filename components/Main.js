@@ -14,7 +14,7 @@ const Main = () => {
     router.locale === 'en'
       ? 'A Cannolo'
       : router.locale === 'it'
-      ? 'Un '
+      ? 'Un Cannolo'
       : router.locale === 'fr'
       ? 'Un Cannoli'
       : router.locale === 'de'
