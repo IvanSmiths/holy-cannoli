@@ -90,10 +90,10 @@
     "lodash" "^4.17.13"
     "to-fast-properties" "^2.0.0"
 
-"@google/model-viewer@^1.5.0":
-  "integrity" "sha512-fsqhUrhgi6drjTKRzxoqCujlAWnZJ+ImG9EcJFg77zoUY71O/HeVNNyzulLKE97PyCZzM+NyZL0R7PYVmq+jEQ=="
-  "resolved" "https://registry.npmjs.org/@google/model-viewer/-/model-viewer-1.5.0.tgz"
-  "version" "1.5.0"
+"@google/model-viewer@^1.6.0":
+  "integrity" "sha512-RykcEQgeHByLiv/JR8JqOJDxbtk+VMsIIbpPDjyqhUG5eL+UliG5eBiupbpUbrUi/Wp7K3z3XsIVDmz/fDrmLg=="
+  "resolved" "https://registry.npmjs.org/@google/model-viewer/-/model-viewer-1.6.0.tgz"
+  "version" "1.6.0"
 
 "@hapi/accept@5.0.1":
   "integrity" "sha512-fMr4d7zLzsAXo28PRRQPXR1o2Wmu+6z+VY1UzDp0iFo13Twj8WePakwXBiqn3E1aAlTpSNzCXdnnQXFhst8h8Q=="

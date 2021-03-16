@@ -4,6 +4,7 @@ const Model = () => {
   return (
     <div className="cnt_model">
       <model-viewer
+        defer
         id="reveal"
         class="model"
         src="/3d-model-2.glb"
