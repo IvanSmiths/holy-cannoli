@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div>
       <footer className={styles.footer}>
-        <h5 className="h3">Idea of:</h5>
+        <h5 className="h3">Idea of: </h5>
         <a
           href="https://www.ivansmiths.com/"
           target="_blank"
