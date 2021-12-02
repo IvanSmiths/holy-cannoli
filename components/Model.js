@@ -13,7 +13,7 @@ const Model = () => {
         poster="/poster.png"
         ar
         camera-controls
-        camera-orbit="-150.8deg 77.13deg 2.982m"
+        camera-orbit="30.91deg 84.51deg"
         auto-rotate
         auto-rotate-delay="500"
         alt="Modello 3D di un Cannolo"
